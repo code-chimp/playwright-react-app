@@ -1,0 +1,19 @@
+{
+  "css.validate": false,
+  "cucumber.features": ["tests/assurance/features/**/*.feature"],
+  "cucumber.glue": ["tests/assurance/step-definitions/**/*.cts"],
+  "diffEditor.ignoreTrimWhitespace": false,
+  "editor.codeActionsOnSave": {
+    "source.addMissingImports": "explicit",
+    "source.fixAll": "explicit",
+    "source.organizeImports": "explicit"
+  },
+  "editor.defaultFormatter": "esbenp.prettier-vscode",
+  "editor.foldingImportsByDefault": false,
+  "eslint.enable": true,
+  "stylelint.configFile": ".stylelintrc.json",
+  "stylelint.reportDescriptionlessDisables": true,
+  "typescript.disableAutomaticTypeAcquisition": true,
+  "typescript.tsdk": "node_modules/typescript/lib",
+  "cSpell.words": ["Goshinski"]
+}

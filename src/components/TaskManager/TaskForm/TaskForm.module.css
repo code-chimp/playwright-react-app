@@ -1,0 +1,21 @@
+@reference '../../../index.css';
+
+.container {
+  @apply mb-6;
+
+  .form {
+    @apply flex gap-2;
+
+    input {
+      @apply flex-1 rounded-md border border-gray-300 px-4 py-2 focus:ring-2 focus:ring-blue-500 focus:outline-none;
+    }
+
+    button {
+      @apply rounded-md bg-blue-500 px-4 py-2 text-white hover:bg-blue-600 focus:ring-2 focus:ring-blue-500 focus:outline-none;
+
+      &:disabled {
+        @apply cursor-not-allowed opacity-50;
+      }
+    }
+  }
+}

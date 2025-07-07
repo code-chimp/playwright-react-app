@@ -1,0 +1,19 @@
+@reference '../../../../index.css';
+
+.itemCard {
+  @apply mb-3 flex items-center justify-between rounded-md border bg-white p-4 shadow-sm;
+
+  .item {
+    label {
+      @apply flex items-center gap-3;
+
+      input {
+        @apply h-5 w-5 accent-blue-500;
+      }
+    }
+  }
+
+  button {
+    @apply rounded-md border px-4 py-2 text-red-500 hover:border-red-700 hover:text-red-700;
+  }
+}
