@@ -6,7 +6,7 @@
 <tbody>
   <tr>
     <td style="border:none;min-width:205px;text-align:center">
-      <img src="assets/playwright.png" alt="Shakespearean actor in a red and green comedy mask" width=400 height=400 style="min-width:300px;min-height:300px">
+      <img src="assets/playwright_sm.png" alt="Shakespearean actor in a red and green comedy mask" width=400 height=400 style="min-width:300px;min-height:300px">
     </td>
     <td style="border:none">
       <p>
